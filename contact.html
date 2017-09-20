@@ -6,19 +6,19 @@
   <meta charset="UTF-8">
   <title>basic portfolio of lloydowens</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link href="https://fonts.googleapis.com/css?family=Anton|Oswald:200,300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
   <header>
-    <div id="logo">lloydowens</div>
+    <div id="logo"><a href="index.html">lloydowens</a></div>
     <nav class="main">
       <ul>
         <li><a href="index.html">about</a></li>
-        <li><a href="#">portfolio</a></li>
-        <li><a href="#">contact</a></li>
+        <li><a href="portfolio.html">portfolio</a></li>
+        <li><a href="contact.html">contact</a></li>
       </ul>
     </nav>
   </header>
@@ -27,14 +27,22 @@
 <div id="wrapper">
     <section id="bio">
 
-      <h2>about me</h2>
+      <h2>contact me</h2>
       <hr class="deep">
-      <img id="bio-image" src="assets/images/meindc.jpg" alt="lloydowens">
-
-      <p>I am a lover of all things beautiful. Images, words, sounds, ideas. With that inspiration, I create. The seed for my creative spirit was planted when I was eight years old, watching my grandfather transform a blank canvas into a landscape. As I watched the canvas fill with grass, flowers and cattle, I realized that beautiful things weren’t just meant to be passively observed; I could create them as well.</p><br>
-      <p>I was hooked instantly, and I’ve never looked back, moving from paper and pencil to mouse and monitor. I expanded into coding and programming so I could provide my clients with a more well-rounded offering of services.
-      My design aesthetic is about crisp lines and sharp colors – in short, it’s klean. Each client represents the opportunity for mutual growth and inspiration. Life never ceases to surprise me, and I find that being open and collaborative is the best way to serve my clients.</p><br>
-      <p>Outside of designing and coding, I am a poet, formerly retired spoken word artist and sneaker fanatic, I have an unhealthy affinity for Diet Dr. Pepper, and Pretty Woman is one of my favorite movies. As you can see, I don't really fit inside any boxes; my versatility and communication skills are what set me apart. That, and the fact that I get to nurture my creative spirit by rediscovering the world through the eyes of my two amazing sons, Jah and Zion and their little princess of a sister Zoe.</p>
+      <form id="contact" action="" method="post">
+      <fieldset><p>name</p>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset><p>email</p>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+      </fieldset>
+      <fieldset><p>message</p>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+      </fieldset>
+      <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+      </form>
     </section>
 
     <aside id="social">
