@@ -164,7 +164,7 @@ ul {
   top: 60px;
 }
 
-.main a {
+.main a:link {
   display: block;
   margin-right: 30px;
   color: #a1a1a1;
@@ -173,6 +173,19 @@ ul {
   font-weight: 300;
   font-size: 20px;
   line-height: 25px;
+}
+
+.main a:visted {
+    color: #a1a1a1;
+}
+
+.main a:hover {
+    color: #a1a1a1;
+}
+
+
+.main a:active {
+    color: ##a1a1a1;
 }
 
 .main ul{
