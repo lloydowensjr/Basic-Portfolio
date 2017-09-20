@@ -4,38 +4,51 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Relative Paths Assignment 1</title>
-
-  <!-- Fill in the href to the CSS such that this HTML file can access the CSS. -->
-  <!-- Don't move the HTML or CSS file. Use Relative Linking -->
+  <title>basic portfolio of lloydowens</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Oswald:200,300,400,500" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
 <body>
   <header>
-    <h1>Student Bio</h1>
+    <div id="logo">lloydowens</div>
+    <nav class="main">
+      <ul>
+        <li><a href="index.html">about</a></li>
+        <li><a href="#">portfolio</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <div class="container">
+  
+<div id="wrapper">
+    <section id="bio">
 
-    <section id="main-bio">
+      <h2>about me</h2>
+      <hr class="deep">
+      <img id="bio-image" src="assets/images/meindc.jpg" alt="lloydowens">
 
-      <h2>Your Name</h2>
-
-      <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
-
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+      <p>I am a lover of all things beautiful. Images, words, sounds, ideas. With that inspiration, I create. The seed for my creative spirit was planted when I was eight years old, watching my grandfather transform a blank canvas into a landscape. As I watched the canvas fill with grass, flowers and cattle, I realized that beautiful things weren’t just meant to be passively observed; I could create them as well.</p><br>
+      <p>I was hooked instantly, and I’ve never looked back, moving from paper and pencil to mouse and monitor. I expanded into coding and programming so I could provide my clients with a more well-rounded offering of services.
+      My design aesthetic is about crisp lines and sharp colors – in short, it’s klean. Each client represents the opportunity for mutual growth and inspiration. Life never ceases to surprise me, and I find that being open and collaborative is the best way to serve my clients.</p><br>
+      <p>Outside of designing and coding, I am a poet, formerly retired spoken word artist and sneaker fanatic, I have an unhealthy affinity for Diet Dr. Pepper, and Pretty Woman is one of my favorite movies. As you can see, I don't really fit inside any boxes; my versatility and communication skills are what set me apart. That, and the fact that I get to nurture my creative spirit by rediscovering the world through the eyes of my two amazing sons, Jah and Zion and their little princess of a sister Zoe.</p>
     </section>
 
-    <section id="contact-info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </section>
+    <aside id="social">
+      <h2>Connect with Me</h2>
+      <hr class="deep">
+      <img class="socialble" src="assets/images/github.png" alt="github">
+      <img class="socialble" src="assets/images/linkdin.png" alt="linkdin">
+      <img class="socialble" src="assets/images/stackoverflow.png" alt="stackoverflow">
+    </aside>
   </div>
+
+  <footer id="fixed">
+    <p class="copyright">@Copyright 2017 lloydowens</p>
+  </footer>
 
 </body>
 

@@ -6,18 +6,27 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
 
 */
 
+html {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   padding: 0;
   margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
-  line-height: 150%;
   color: #333;
   background: #efeee7;
 }
 
 header {
-  background: #d21034;
+  background-color: #fff;
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  height: 120px;
 }
 
 h1 {
@@ -28,37 +37,140 @@ h1 {
   color: #eee;
   text-align: center;
   background: #333;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
 }
 
 h2 {
-  font-size: 24px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 a {
   color: #d21034;
 }
 
-.container {
-  width: 1024px;
-  margin: 0 auto;
+ul {
+  list-style: none;
 }
 
-#main-bio,
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+  flex: 1 0 auto;
+}
+
+#logo {
+  font-family: 'Anton', sans-serif;
+  font-size: 33px;
+  padding: 35px;
+  background-color: #a1d8d5;
+  width: 150px;
+  height: auto; 
+  left: 22.56%;
+  position: absolute;
+  top: 17px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+#bio,
 #contact-info,
 #bio-image {
   float: left;
 }
 
-#main-bio {
-  width: 70%;
+#bio {
+  width: 560px;
+  background-color: #fff;
+  margin: 20px;
+  padding: 40px;
+
 }
 
-#contact-info {
-  width: 30%;
+#bio h2 {
+  margin-bottom: 20px;
+  border-style: solid;
+  border-bottom-color: #a1a1a1
+
+}
+
+#social {
+  width: 220px;
+  padding: 20px;
+  background-color: #fff;
+  float: left;
+  margin: 20px 0 0 20px;
+}
+
+#social h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
 #bio-image {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin-right: 20px;
+  
+}
+#fixed {
+  clear: both;
+  flex: 0 0 auto;
+  padding: 40px;
+  background-color: #a1a1a1;
+  border-style: solid;
+  border-top: thick double #a1d8d5;
+}
+
+.copyright {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.socialble {
+  margin: 11px;
+}
+
+.deep {
+  margin-bottom: 20px;
+}
+
+.main {
+  right: 5%;
+  display: block;
+  position: absolute;
+  width: 31%;
+  top: 60px;
+}
+
+.main a {
+  display: block;
+  margin-right: 30px;
+  color: #a1a1a1;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.main ul{
+  list-style: none;
+
+}
+.main li {
+  display: list-item;
+  float: left;
+  position: relative;
+  text-decoration: none;
 }
