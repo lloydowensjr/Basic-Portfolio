@@ -72,16 +72,15 @@ ul {
 }
 
 #logo {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 500;
-  font-size: 35px;
-  padding: 34px;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 30px;
+  padding: 36px;
   background-color: #a1d8d5;
-  width: 150px;
-  height: auto; 
+  width: 180px;
+  height: auto;
   left: 22.56%;
   position: absolute;
-  top: 17px;
+  top: 18px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 
